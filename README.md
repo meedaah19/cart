@@ -21,3 +21,8 @@ The subscriber function will be subcribe by using store.getState().
 To subcribe to the store will use store.subscribe(subscriber function).
 
 We also have store.dispatch that has a type object.
+
+Hookes to make the redux work are;
+    useDispatch, hooks to access redux dispatch function.
+    useSelector, A hook to access the redux store's state. This hook takes a selector function as an argument. The selector is called with the store state.
+    
